@@ -23,14 +23,16 @@
 .name {
     font-weight: 700;
     text-align: center;
+    
 }
 
 .tag {
     text-align: center;
 }
 
-.location {
-    text-align: center;
+.laction {
+text-align: center;
+    
 }
 .stats {
     background-color: azure;

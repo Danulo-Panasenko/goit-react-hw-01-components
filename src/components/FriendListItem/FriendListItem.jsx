@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import css from "./FriendListItem.module.css";
 
 const FriendListItem = ({avatar, name, isOnline})=> {
-    const fullClassName = isOnline ? [css.online] : [css.online];
+    const fullClassName = isOnline ? [css.online] : [css.offline];
 
     
     return (<li className={css.item}>
