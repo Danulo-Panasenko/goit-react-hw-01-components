@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import css from './TransactionHistory.module.css';
-import { TransactionItem } from 'components/TransactionItem/TransactionItem';
+import  TransactionItem  from 'components/TransactionItem/TransactionItem';
 
 const TransactionHistory = ({ items }) => {
     const elements = items.map(item => <TransactionItem key={item.id} type={item.type} amount={item.amount} currency={item.currency} />);

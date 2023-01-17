@@ -3,15 +3,16 @@ import user from './data/user.json';
 import data from './data/data.json';
 import friends from './data/friends.json';
 import transactions from './data/transactions.json';
-import { FriendList } from "./components/FriendList/FriendList";
-import { TransactionHistory } from "./components/TransactionHistory/TransactionHistory";
-import {Profile} from "./components/Profile/Profile";
-import { Statistics } from "./components/Statistics/Statistics";
+import  FriendList  from "./components/FriendList/FriendList";
+import  TransactionHistory  from "./components/TransactionHistory/TransactionHistory";
+import Profile from "./components/Profile/Profile";
+import  Statistics  from "./components/Statistics/Statistics";
 
 export const App = () => {
   return (
     <>
       <Profile
+        key={user.username}
   username={user.username}
   tag={user.tag}
   location={user.location}
