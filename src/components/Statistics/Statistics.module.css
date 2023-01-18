@@ -1,35 +1,36 @@
-.stats_item{
-    display: grid;
-    gap: 5px;
-    text-align: center;
+.stats_item {
+  display: grid;
+  gap: 5px;
+  text-align: center;
 }
-.label{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.label {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
-.percentage{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-    font-weight: 700;
+.percentage {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 700;
 }
 .title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 }
 .list {
-    padding: 0;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 .statistics {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border: 1px solid black;
-    margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  margin-bottom: 30px;
 }
