@@ -20,7 +20,6 @@ const TransactionHistory = ({ items }) => {
 }
 
 TransactionHistory.defaultProps = {
-
     items: []
 }
 TransactionHistory.propTypes = {
